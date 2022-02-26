@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Password Generator</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<style>
+    *{
+       font-family: 'Roboto Mono', monospace;
+    }
+    body{
+        margin:0
+    }
+nav{
+    background-color: bisque;
+    color: black;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    border-bottom: 1px black solid;
+    margin-bottom: 20px;
+}
+button{
+    border: transparent 0 ;
+    width: 200px;
+    margin: 20px;
+}
+textarea{
+    width: 50%;
+}
+.container {
+    margin: 0 auto;
+    max-width: 1400px;
+    width: 80vw;
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+    align-items: center;
+}
+</style>
+<body>
+    
+<nav>
+    <h1>Password Generator</h1>
+</nav>
+
+
+<div  class="container">
+    <textarea name="password" id="password" ></textarea>
+    <button id="generate-btn" >Generate Password</button>
+    
+</div>
+
+</body>
+<script src="./index.js"></script>
+</html>
